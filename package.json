@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "test": "jest --runInBand --detectOpenHandles --forceExit"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  },
+  "dependencies": {
+    "puppeteer": "^16.2.0"
+  },
+  "autograding": {
+    "setup": "cd ./node_modules/puppeteer && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DigitalCareerInstitute/UIB-UI-UX-the-sweet-spot-v4",
+    "id": 338271430
+  }
+}

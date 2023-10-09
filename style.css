@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Monoton&family=Quicksand:wght@400;700&display=swap');
+
+*,
+::before,
+::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: rgb(214,211,211);
+    font-size: 1.6rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+ul li{
+    list-style: none;
+}
+
+.text-align-c{
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Header */
+
+.img-container {
+    height: 25vh;
+    background: center / cover no-repeat url(images/main-header.jpg);
+}
+
+#main-heading {
+    padding: 2rem;
+    color: rgb(219,212,212);
+    background-color: rgb(245,142,160);
+    font-family: 'Monoton', cursive;
+    font-size: 8rem;
+    letter-spacing: .5rem;
+    text-shadow: .2rem .2rem 0 rgb(61,215,236),
+                 .2rem -.2rem 0 rgb(61,215,236),
+                 -.2rem .2rem 0 #4074b5,
+                 -.2rem -.2rem 0  rgb(61,215,236);
+}
+
+/* main */
+
+#index main{
+    background-color: rgba(255, 255, 255, 0.773);
+    margin: 4rem 12rem;
+    border-radius: 1.3rem;
+    border: .25rem solid white;
+    padding: 3rem;
+}
+
+.heading-2{
+    color: rgb(241,18,241);
+    background-color: rgb(218, 216, 216);
+    padding: 1rem;
+    border-radius: .3rem;
+}
+
+.heading-2::after{
+    font-family: "Font Awesome 5 free";
+    content: "\f564";
+    display: inline-block;
+    color: rgb(30,215,240);
+    font-size: 3rem;
+    margin-left: 1rem;
+    
+}
+
+.topics-text{
+    padding: 1rem;
+}
+
+.section-treats .heading-2{
+    margin-bottom: 3rem;;
+}
+
+img{
+    height: 12.5rem;
+    width: 12.5rem;
+    border-radius: 50%;
+    border: .2rem solid yellow;
+    position: relative;
+    top: -1.45rem;
+    margin-right: 1.5rem;
+}
+
+.img-1, .img-3 {
+    float:  left;
+}
+.img-2 {
+    float:  right;
+}
+
+.section-treats article{
+    padding: 2.4rem 0;
+}
+.section-treats article::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.heading-3 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.section-partners ul{
+    background-color: rgb(245,142,160);
+    padding: .8rem;
+}
+.section-partners ul:hover{
+    background-color: yellow;
+}
+
+
+.section-partners ul li{
+    display: block;
+}
+
+.section-partners ul li:hover{
+    background-color: rgb(245,142,160);
+    padding: .8rem 0;
+}
+
+
+
+/* Footer */
+
+footer h3{
+    text-align: center;
+    margin: 2rem 0;
+    font-weight: 700;
+}
+
+
+/* Contact Page */
+
+#contact .img-container {
+    background: center / cover no-repeat url("images/contact-header.jpeg");
+    height: 25vh;
+}
+
+#contact main{
+    padding: 1.5rem;
+}
+
+#contact .img-container {
+    background: center / cover no-repeat url("images/contact-header.jpeg");
+    height: 25vh;
+}
+
+#contact h2{
+    margin-bottom: 1rem;
+}
+
+#contact .contact-links{
+    padding: 1rem;
+    background-color: rgb(30,215,240);
+    margin: 2rem 0;
+}
+
+#contact .contact-links li:hover{
+    background-color: rgb(245, 142, 160);
+    padding: .8rem 0;
+}
+
+footer a:link,
+footer a:hover,
+footer a:visited{
+    color: rgb(35,22,236);
+    font-weight: 700;
+    font-size: 1.9rem;
+}
+
+
+[class^="fa"]{
+    display: inline-block;
+    margin-left: 1rem;
+}
+
+.b-arrow {
+    display: inline-block;
+    margin-right: .4rem;
+    color: rgb(35,22,236)
+}
